@@ -133,3 +133,9 @@ footer {
 .logos img:hover {
     transform: scale(1.2);
 }
+
+@media (max-width: 525px ) {
+    .details summary { 
+        padding: 0 0 35px 0;
+    }
+}
