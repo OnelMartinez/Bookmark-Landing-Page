@@ -135,7 +135,7 @@ footer {
 }
 
 @media (max-width: 525px ) {
-    .details summary { 
+    details summary { 
         padding: 0 0 35px 0;
     }
 }
