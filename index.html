@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKMARK | Landing page </title>
+    <link rel="shortcut icon" href="/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/features.css">
+    <link rel="stylesheet" href="./css/preicing.css">
+    <link rel="stylesheet" href="./css/questions.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+        </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="navegation-bar">
+            <div class="logo">
+                <img src="./images/logo-bookmark.svg" alt="">
+            </div>
+        </div>
+        
+        <div class="navegations">
+            <a href="#features">FEATURES</a>
+            <a href="#pricing">PRICING</a>
+            <a href="#contact">Questions</a>
+            <input type="button" value="LOGIN">
+        </div>
+
+        <div class="nav-menu">
+            <img id="icon-menu" src="./images/icon-hamburger.svg" alt="">
+        </div>
+        <div id="menus" class="cerrado" >
+            <div class="logo-mobile">
+                <img src="./images/logo-bookmark.svg" alt="logo" class="logo-e" >
+                <img style="cursor: pointer;" src="./images/icon-close.svg" alt="close" class="clase" id="close-icon">
+            </div>
+            <div class="navegacion">
+                <div class="divisor"></div>
+                <a href="#features">FEATURES</a>
+                <div class="divisor"></div>
+                <a href="#pricing">PRICING</a>
+                <div class="divisor"></div>
+                <a href="#contact">CONTACT</a>
+                <div class="divisor"></div>
+            </div>
+        </div>
+    </header>
+    <main>
+            <div class="textos-main">
+                <h1>A Simple Bookmark Manager</h1>
+                <h4>A clean and simple interface to organize your favourite websites. Open a new 
+                    browser tab and see your sites load instantly. Try it for free.</h4>
+                <div class="buttons-main">
+                    <input type="button" value="Get it on Chrome">
+                    <input style="color: black; background-color: rgba(201, 201, 201, 0.514);" type="button" value="Get it on Firefox">
+                </div>
+            </div>
+                <img  id="img-main" class="imagen-main" src="./images/illustration-hero.svg" alt="">
+    </main>
+    <section id="features">
+        <h1>Features</h1>
+        <h4 style="text-align: center;">Our aim is to make it quick and easy for you to access your favourite websites. 
+            Your bookmarks sync between your devices so you can access them on the go.</h4>
+        <div class="opciones-features">
+            <div class="opcion" id="opc-one">
+                <a class="one" onclick="featureOne()">Simple Bookmarking</a>
+            </div>
+            <div class="opcion" id="opc-two">
+                <a onclick="featureTwo()" class="two">Speedy Searching</a>
+            </div>
+            <div class="opcion" id="opc-tree">
+                <a onclick="featureTree()" class="tree">Easy Sharing</a>
+            </div>
+        </div>
+        <div class="opc" id="seccion-container">
+            <img src="./images/illustration-features-tab-1.svg" alt="">
+            <div class="textos-opc">
+                <h2>Bookmark in one click</h2>
+                <p> Organize your bookmarks however you like. Our simple drag-and-drop interface 
+                    gives you complete control over how you manage your favourite sites.</p>
+                <input type="button" value="More Info">    
+            </div>
+        </div>
+
+        </section>
+    <section id="pricing" class="pricing-secc">
+        <h2>Download the extension</h2>
+        <p>We’ve got more browsers in the pipeline. Please do let us know if you’ve 
+            got a favourite you’d like us to prioritize.</p>
+        <div class="tarjetas">
+            <div class="targeta">
+                <img src="./images/logo-chrome.svg" alt="Chrome">
+                <p>Minimum version 6.2</p>
+                <input type="button" value="Add & Install Extension">
+            </div>
+            <div class="targeta">
+                <img src="./images/logo-firefox.svg" alt="Chrome">
+                <p>Minimum version 55</p>
+                <input type="button" value="Add & Install Extension">
+            </div>
+            <div class="targeta">
+                <img  src="./images/logo-opera.svg" alt="Chrome">
+                <p>Minimum version 46</p>
+                <input type="button" value="Add & Install Extension">
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="preguntas-sec" >
+        <h2>Frequently Asked Questions</h2>
+        <p class="parrafo" >Here are some of our FAQs. If you have any other questions you’d like 
+            answered please feel free to email us.</p>
+            <div class="preguntas">
+                <details class="question-one">
+                    <summary>What is Bookmark?  <img class="rotacion" src="./images/icon-arrow.svg" alt=""></summary>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt 
+                        justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
+                </details>
+                <details class="question-one">
+                        <summary>How can I request a new browser?  <img src="./images/icon-arrow.svg" alt=""></summary>
+                    <p>Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. 
+                        Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, 
+                        ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. 
+                        Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.
+                      </p>
+                </details>
+                <details class="question-one">
+                    <summary>Is there a mobile app?  <img src="./images/icon-arrow.svg" alt=""></summary>
+                    <p>Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum 
+                        urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed 
+                        sollicitudin ex et ultricies bibendum.</p>
+                </details>
+                <details class="question-one">
+                    <summary>What about other Chromium browsers?  <img src="./images/icon-arrow.svg" alt=""></summary>
+                    <p>Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam 
+                        vitae neque eget nisl gravida pellentesque non ut velit.</p>
+                </details>
+            </div>
+            <input type="button" value="More Info">
+    </section>
+    <footer>
+        <div class="logo-footer">
+            <img src="./css/logo-bookmark_blanco.svg" alt="">
+        </div>
+        <div class="navegaciones">
+            <a href="#features">FEATURES</a>
+            <a href="#pricing">PRICING</a>
+            <a href="#contact">CONTACT</a>
+        </div>
+        <div class="logos">
+            <img src="./images/icon-facebook.svg" alt="">
+            <img src="./images/icon-twitter.svg" alt="">
+        </div>
+    </footer>
+    <script src="./js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+:root {
+    --blue: hsl(231, 69%, 60%);
+    --red: hsl(0, 94%, 66%);
+    --grey: hsl(0, 0%, 97%);
+    --blue-second: hsl(229, 31%, 21%);
+    --black: hsl(0, 0%, 0%);
+}
+
+main {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textos-main {
+    width: 40%;
+    margin-left: 80px;
+}
+
+.textos-main h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.textos-main h4 {
+    margin: 20px 0;
+    font-size: 20px;
+    color: rgba(168, 168, 168, 0.89);
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.imagen-main {
+    width: 60%;
+    padding-right: 20px;
+}
+
+.buttons-main input {
+    background-color: var(--blue);
+    padding: 20px 30px;
+    font-weight: 800;
+    border: none;
+    border-radius: 7px;
+    color: aliceblue;
+    transition: all 1s;
+    margin: 15px 10px 0 0;
+}
+
+.buttons-main input:hover {
+    border: 1px outset hsl(231, 69%, 60%);
+    background-color: #fff;
+    color: var(--blue);
+}
+
+
+@media (max-width: 835px ) {
+    main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textos-main { 
+        width: 67%;
+        margin: 340px 0 0 0;
+    }
+
+    .textos-main h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .textos-main h4 {
+        text-align: center;
+    }
+
+    .buttons-main  { 
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .imagen-main {
+        padding: 0;
+        position: absolute;
+        width: 400px;
+    }
+}
+
+@media (max-width: 450px ) {
+    .imagen-main {
+        width: 300px;
+    }
+
+    .textos-main { 
+        margin: 220px 0 0 0;
+    }
+}

@@ -1,0 +1,135 @@
+.preguntas-sec {
+    margin-top: 100px;
+    display: flex;
+    height: max-content;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.parrafo {
+    color: rgba(168, 168, 168, 0.89);
+    width: 80%;
+    margin: 20px 0 40px 0;
+    text-align: center;
+    line-height: 30px;
+}
+
+.preguntas-sec h2 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.preguntas {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.preguntas details{
+    width: 50vw;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+details > summary:first-of-type {
+    list-style: none;
+}
+
+details p {
+    color: rgba(168, 168, 168, 0.89);
+    width: 80%;
+    margin: 15px 0 10px 0;
+    line-height: 25px;
+}
+
+details[open] p {
+    width: 50vw;
+}
+
+details summary img {
+    transform: rotate(0deg);
+    transition: all 1s ;
+}
+
+details[open] summary img{
+    transform: rotate(-180deg);
+}
+
+details summary {
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    height: 15px;
+    padding: 0 0 10px 0;
+}
+
+.preguntas-sec input {
+    background-color: var(--blue);
+    padding: 20px 30px;
+    font-weight: 800;
+    border: none;
+    border-radius: 7px;
+    color: aliceblue;
+    transition: all 1s;
+    margin: 20px 0px 0 0;
+}
+
+.preguntas-sec input:hover {
+    border: 1px outset hsl(231, 69%, 60%);
+    background-color: #fff;
+    color: var(--blue);
+}
+
+/* FOOTER */ 
+footer {
+    margin-top: 20px;
+    background-color: hsl(229, 31%, 21%);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo-footer {
+    margin: 0 20px 0 20px ;
+}
+
+.navegaciones {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navegaciones a {
+    font-weight: 600;
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+    margin: 0 10px 0 10px;
+    transition: all 1s;
+}
+
+.navegaciones a:hover {
+    color: hsl(231, 69%, 60%);
+}
+
+.logos {
+    margin: 0 20px 0 20px ;
+}
+
+.logos img {
+    margin: 0 0 0 10px;
+    transition: all 1s;
+}
+
+.logos img:hover {
+    transform: scale(1.2);
+}

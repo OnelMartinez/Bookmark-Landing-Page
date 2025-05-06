@@ -1,0 +1,95 @@
+.pricing-secc {
+    margin-top: 100px;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.pricing-secc h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.pricing-secc p {
+    color: rgba(168, 168, 168, 0.89);
+    width: 80%;
+    text-align: center;
+    margin: 20px 0;
+    line-height: 30px;
+}
+
+.tarjetas {
+    margin: 15px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.targeta {
+    margin: 10px 20px;
+    border-radius: 7px;
+    padding: 25px 20px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 10px rgba(117, 117, 117, 0.158);
+}
+
+.targeta img {
+    width: 70%;
+    height: 70%;
+}
+
+.targeta input {
+    background-color: var(--blue);
+    padding: 20px 30px;
+    font-weight: 800;
+    border: none;
+    border-radius: 7px;
+    color: aliceblue;
+    transition: 1s;
+    margin: 0px 0;
+}
+
+.targeta input:hover {
+    border: 1px outset hsl(231, 69%, 60%);
+    background-color: #fff;
+    color: var(--blue);
+}
+
+.divider {
+    width: 100%;
+    margin: 10px 0;
+}
+
+@media (max-width: 690px) {
+    .pricing-secc {
+        margin-top: 200px;
+    }
+}
+
+
+@media (max-width: 575px) {
+    .pricing-secc {
+        margin-top: 350px;
+    }
+}
+
+@media (max-width: 397px) {
+    .pricing-secc {
+        margin-top: 420px;
+    }
+}
+
+
+@media (max-width: 355px) {
+    .pricing-secc {
+        margin-top: 520px;
+    }
+}
